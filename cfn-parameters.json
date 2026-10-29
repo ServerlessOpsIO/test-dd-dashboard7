@@ -1,0 +1,9 @@
+{
+    "Hostname": "test-dd-dashboard7.sandbox.serverlessops.io",
+    "DnsZoneId": "/org/dns/ZoneId",
+    "CognitoUserPoolArn": $secrets.COGNITO_USER_POOL_ARN,
+    "Domain": "sandbox",
+    "System": "testing",
+    "Component": $env.GITHUB_REPOSITORY_NAME_PART_SLUG_CS,
+    "CodeBranch": $env.GITHUB_REF_SLUG_CS
+}

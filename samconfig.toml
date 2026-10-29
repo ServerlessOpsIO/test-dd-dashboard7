@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+
+[default.deploy]
+
+[default.deploy.parameters]
+stack_name = "test-dd-dashboard7"
+confirm_changeset = false
+capabilities = "CAPABILITY_NAMED_IAM"

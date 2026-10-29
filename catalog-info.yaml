@@ -1,0 +1,36 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-dd-dashboard7
+  description: test
+  annotations:
+    github.com/project-slug: ServerlessOpsIO/test-dd-dashboard7
+
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: api
+  lifecycle: production
+  owner: group:00gjdgxs1ur6lsu
+  system: system:testing
+
+  providesApis:
+    - api:test-dd-dashboard7
+
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-dd-dashboard7
+  description: |
+    test
+spec:
+  type: openapi
+  system: system:testing
+  lifecycle: production
+  owner: group:00gjdgxs1ur6lsu
+  definition:
+    $text: https://github.com/ServerlessOpsIO/test-dd-dashboard7/blob/main/openapi.yaml

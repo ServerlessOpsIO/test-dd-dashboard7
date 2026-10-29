@@ -1,0 +1,5 @@
+{
+  "org:domain": "sandbox",
+  "org:system": "testing",
+  "org:component": $env.GITHUB_REPOSITORY_NAME_PART_SLUG_CS
+}
